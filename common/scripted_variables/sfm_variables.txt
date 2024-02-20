@@ -1,0 +1,5 @@
+@sfm_fleet_restore_cost = 0.05 # *100%
+@sfm_fleet_in_mothball_repair_timer_days = 30
+@sfm_fleet_in_mothball_upkeep = -0.2 # *100%
+@sfm_fleets_per_planet = 10
+@sfm_max_repair_time = 360

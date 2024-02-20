@@ -1,0 +1,27 @@
+# A planets controller becomes a country not the same as the owner.
+# Root = Planet
+# From = Planet Owner
+# FromFrom = Planet Controller (the one occupying)
+on_planet_occupied = {
+	events = {
+		nsc_events_mothball.4
+	}
+}
+
+#From = Country scope
+#This = Planet scope
+on_planet_ownerless = {
+	events = {
+		nsc_events_mothball.7
+	}
+}
+
+#Fired whenever a new owner is set for a planet,
+#be it after a war or through a trade
+#From = Country scope (new owner)
+#This = Planet scope
+on_planet_transfer = {
+	events = {
+		nsc_events_mothball.9
+	}
+}

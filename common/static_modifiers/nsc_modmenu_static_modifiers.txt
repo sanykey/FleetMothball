@@ -1,0 +1,4 @@
+
+nsc_modmenu_etc_feature_mothball_fleet_resource_upkeep_mod = {
+	ships_upkeep_mult = @sfm_fleet_in_mothball_upkeep
+}
